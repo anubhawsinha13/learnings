@@ -1,18 +1,20 @@
 package com.a3.learnings;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.a3.learnings.scopes.models.Coach;
+import com.a3.learnings.Configuration.Config.AppConfig;
+import com.a3.learnings.Configuration.models.Coach;
 
-public class AnnotationBeanScope {
+public class ConfigurationApp {
 
 	public static void main(String[] args) {
 		
-		//Load the spring configuration file
+		//Load the spring java configuration file
 		//load the bean from the factory
 		//call the methods
 		
-		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("annotationsApplicationContext.xml");
+		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
 		Coach theCoach = context.getBean("tennisCoach", Coach.class);
 		Coach alphaCoach = context.getBean("tennisCoach", Coach.class);
 		

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.a3.learnings.scopes.models;
+package com.a3.learnings.Configuration.models;
 
 /**
  * @author asinha

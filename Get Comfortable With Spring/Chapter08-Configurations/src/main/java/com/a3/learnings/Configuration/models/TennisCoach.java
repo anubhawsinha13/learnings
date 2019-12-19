@@ -1,4 +1,4 @@
-package com.a3.learnings.scopes.models;
+package com.a3.learnings.Configuration.models;
 
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;

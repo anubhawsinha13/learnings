@@ -1,4 +1,4 @@
-package com.a3.learnings.scopes.models;
+package com.a3.learnings.Configuration.models;
 
 
 import org.springframework.context.support.ClassPathXmlApplicationContext;
