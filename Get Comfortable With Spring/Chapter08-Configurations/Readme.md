@@ -13,4 +13,13 @@
      	4) Retrieve bean file from the container
      	
      Read the spring java configuration file with "AnnotationConfigApplicationContext"
+     
+     @Bean : Use @Bean annotation to define the bean configuration in Java config file
+     		Use can use the constructor injection to resolve the dependency injection in the Java config file.
+     		
+     		
+## Injecting values from properties file
+ 		1) Create the properties file
+ 		2) Load the properties in spring configuration
+ 		3) Reference the values from the Properties file.
 		
