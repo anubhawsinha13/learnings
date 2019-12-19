@@ -22,7 +22,7 @@
 		
 		
 		Multiline property can be done by adding at \ (back Slash) at the end of the line.
-		Spring also allows to add teh properties from environment variables:
+		Spring also allows to add the properties from environment variables:
 				s			bpg.init.java-home=This is Java path: ${JAVA_HOME}
 		
 		
