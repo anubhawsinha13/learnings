@@ -1,6 +1,6 @@
 
 ## Topics Java
-	Chapters 101-	Objects
+	Chapter 101-	Objects
 	Chapter 102-	Spring Beans
 	Chapter 103-	Java Constructor
 	Chapter 104-	Constructor
