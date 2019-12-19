@@ -1,7 +1,4 @@
-## Class 
-## Objects 
-## Methods 
-# Spring Beans
+## Class # Objects # Methods # Spring Beans
 
     #Topics:
         classes and objects
