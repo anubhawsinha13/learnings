@@ -1,0 +1,15 @@
+## Rest Controller
+
+	Steps:
+		1) Setup the application with pom.xml
+		2) Setup all Java config: @configuration
+					@configuration
+					@ComponenetScan (basePackages="com.a3.learnings")
+					
+		3) Web App Initializer: Code is automatically detected and used for initializing the servelet container. 
+		
+		Project Initialization: 
+		
+		1) Initialize the project with the base package.
+		2) Define the config folder and add the AppConfig file
+		3) Initialize the Config file with annotations

@@ -1,0 +1,10 @@
+package com.a3.learnings.models;
+
+import java.awt.List;
+
+public class Theater {
+	
+	private final String theaterName;
+	private List<Seat> seats = new ArrayList<>();
+
+}

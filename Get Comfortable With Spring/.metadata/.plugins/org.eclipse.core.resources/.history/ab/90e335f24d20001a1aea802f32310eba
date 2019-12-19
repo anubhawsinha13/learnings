@@ -1,0 +1,12 @@
+package com.a3.learnings.services;
+
+public class JSON_To_POJO {
+
+	public static void main(String[] args) {
+		
+		
+		ObjectMapper objMapper = ObjectMapper();
+
+	}
+
+}

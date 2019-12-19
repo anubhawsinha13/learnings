@@ -1,0 +1,42 @@
+package com.a3.learnings.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.a3.learnings.model.Student;
+
+@RestController
+@RequestMapping("/")
+public class StudentController {
+	
+	
+	@GetMapping("/student") 
+	//Always use a verb in the URI
+	public List<Student> getListofStudent(){
+		
+		List<Student> theStudents = new ArrayList<>();
+		theStudents.add(new Student(1,"Anubhaw"));
+		theStudents.add(new Student(2,"Sinha"));
+		
+		
+	return theStudents;	
+	}
+	
+	@GetMapping("/student/{studenId}") 
+	//Always use a verb in the URI
+	public List<Student> getStudent(){
+		
+		List<Student> theStudents = new ArrayList<>();
+		theStudents.add(new Student(1,"Anubhaw"));
+		theStudents.add(new Student(2,"Sinha"));
+		
+		
+	return theStudents;	
+	}
+	
+
+}

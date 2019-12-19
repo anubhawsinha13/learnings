@@ -1,0 +1,8 @@
+package com.a3.learnings.models;
+
+public class Theater {
+	
+	private final theaterName;
+	private List<Seat> seats = new ArrayList<>();
+
+}

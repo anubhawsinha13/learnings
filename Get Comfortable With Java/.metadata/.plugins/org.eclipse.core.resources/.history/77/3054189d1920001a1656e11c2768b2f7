@@ -1,0 +1,20 @@
+/*
+ * 
+ * 
+ * Program to show why collections framework was needed.
+ */
+
+
+public class OldCollectionsFramework {
+	
+	
+	public static void main(String args[]) {
+		
+		//Arrays one way to store group of objects
+		
+		int[] arrays = new int[] {1,2,3,4,5};
+		
+		
+	}
+
+}

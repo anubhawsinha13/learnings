@@ -1,0 +1,13 @@
+package com.a3.learnings.model;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Dog dog = new Dog(" loki ");
+		dog.breathe();
+		dog.eat();
+		
+	}
+
+}

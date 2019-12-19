@@ -1,0 +1,16 @@
+/*
+ * 
+ * 
+ * Program to show why collections framework was needed.
+ */
+
+
+public class OldCollectionsFramework {
+	
+	
+	public static void main(String args[]) {
+		
+		
+	}
+
+}

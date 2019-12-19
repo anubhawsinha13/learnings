@@ -1,0 +1,13 @@
+package com.a3.learnings.annotations.models;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Coach {
+		
+	public String getDailyWorkout() {
+		
+		return "Run daily 5 miles";
+	}
+
+}

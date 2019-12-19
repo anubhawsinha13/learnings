@@ -1,0 +1,5 @@
+package com.a3.learnings.model;
+
+public class Dog extends Animal{
+
+}

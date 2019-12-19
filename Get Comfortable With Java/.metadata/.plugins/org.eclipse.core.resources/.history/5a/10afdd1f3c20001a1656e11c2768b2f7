@@ -1,0 +1,22 @@
+package com.a3.learnings.models;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Theater4 theater = new Theater4("Olympian", 8 ,12);
+		//theater.getSeats();
+		long startTime = System.nanoTime();
+		if(theater.reserveSeat("H11")) {
+			System.out.println("Please pay for the seat");
+			
+		}
+		else {
+			System.out.println(" Sorry seat is already taken");
+		}	
+		
+		long endTime = System.nanoTime();
+
+	}
+
+}

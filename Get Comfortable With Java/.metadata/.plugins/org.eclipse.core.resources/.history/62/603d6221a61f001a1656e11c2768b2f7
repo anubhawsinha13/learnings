@@ -1,0 +1,7 @@
+package com.a3.learnings.model;
+
+public interface CanFly {
+	
+	void fly();
+
+}

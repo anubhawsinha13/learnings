@@ -1,0 +1,16 @@
+package com.a3.learnings;
+
+import java.util.Scanner;
+
+public class SortingDescending {
+	
+	
+	public static void main(String[] args) {
+		
+		int[] myIntegers = getIntegers();
+		
+		
+		
+	}
+
+}

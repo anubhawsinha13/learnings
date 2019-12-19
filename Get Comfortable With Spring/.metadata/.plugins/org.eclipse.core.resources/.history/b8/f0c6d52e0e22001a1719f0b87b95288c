@@ -1,0 +1,16 @@
+package com.a3.learnings.autowiring.models;
+
+public class TennisCocah implements Coach {
+	
+	
+	
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	}
+
+}

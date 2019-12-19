@@ -1,0 +1,20 @@
+package com.a3.learnings.models;
+
+import java.util.*;
+
+public class Theater1 {
+	
+	private String name;
+	private List<Seat> seats = new ArrayList<>();
+	
+	
+	public boolean reserveSeat(Seat seatNumber) {
+		
+	}
+	
+	public List<Seat> getSeats(){
+		return seats;
+		
+	}
+
+}

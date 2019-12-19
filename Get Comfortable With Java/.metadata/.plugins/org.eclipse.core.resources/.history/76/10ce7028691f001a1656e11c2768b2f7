@@ -1,0 +1,10 @@
+package com.a3.learnings.models;
+
+public class Car extends Vehicle {
+
+	public Car(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
+}

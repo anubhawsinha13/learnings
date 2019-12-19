@@ -1,0 +1,17 @@
+package com.a3.learnings.models;
+
+public class Bird implements Animal {
+
+	@Override
+	public void eat() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void breathe() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,36 @@
+# Static and Instance Methods
+
+Static Methods : 
+
+			Characteristics:
+				Static methods are declared with "static" keyword.
+				Static methods cannot access instance methods and variables directly.
+				static methods does not require instance to be created.
+				
+				
+Instance Methods :
+			
+			Characteristics:
+				Instance methods belongs to instance of a class.
+
+
+Static or instance methods:
+
+			## Does the method use any instance variable or instance methods??
+				Yes: Then the method should be instance method.
+				No: Then it should be a static method.
+				
+
+# Static Vs Instance Variables
+
+Static variables : 
+				
+				Characteristics:
+					Static variables are shared between instances.
+					
+Instance variables :
+				
+				Characteristics:
+					Every instance has its own copy of instance variable.
+					Represents a state of a specific instance of the class.
+					

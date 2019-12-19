@@ -1,0 +1,10 @@
+package com.a3.learnings.annotations.models;
+
+public class AnnotationExample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

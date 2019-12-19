@@ -1,0 +1,9 @@
+## Collections
+
+		A group of individual objects represented as a single unit.
+		
+		Two main interfaces of collections:
+		java.util.Collections
+		java.util.Map
+		
+		before collections, group of objects were stored Arrays, Hashtables, Vectors

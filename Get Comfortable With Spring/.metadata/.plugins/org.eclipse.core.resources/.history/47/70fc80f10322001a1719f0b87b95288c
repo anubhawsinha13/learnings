@@ -1,0 +1,18 @@
+package com.a3.learnings.SpringApp;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class InversionOfControl {
+	
+	
+	/*
+	 * 
+	 * 1) Load the spring configuration file
+		2) retrieve the bean from container
+		3) Call methods on the bean 
+		4) close the context 
+	 */
+	
+	ClassPathXmlApplicationContext  context = ClassPathXmlApplicationContext("applicationContext.xml");
+
+}
