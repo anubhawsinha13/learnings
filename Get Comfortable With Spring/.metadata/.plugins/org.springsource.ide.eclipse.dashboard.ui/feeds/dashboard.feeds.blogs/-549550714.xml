@@ -5,7 +5,25 @@
   <link rel="self" href="https://spring.io/blog.atom" />
   <id>http://spring.io/blog.atom</id>
   <icon>https://spring.io/favicon.ico</icon>
-  <updated>2019-12-19T09:24:42Z</updated>
+  <updated>2019-12-20T11:43:41Z</updated>
+  <entry>
+    <title>A Bootiful Podcast: Reactor teammate Simon Baslé</title>
+    <link rel="alternate" href="https://spring.io/blog/2019/12/20/a-bootiful-podcast-reactor-teammate-simon-basl" />
+    <category term="engineering" label="Engineering" />
+    <author>
+      <name>Josh Long</name>
+    </author>
+    <id>tag:spring.io,2019-12-20:3914</id>
+    <updated>2019-12-20T11:43:41Z</updated>
+    <content type="html">&lt;p&gt;Hi, Spring fans! In this episode, I talk to Reactor teammate &lt;a href="http://twitter.com/SimonBasle"&gt;Simon Baslé&lt;/a&gt; about Nantes, France; DevFest Nantes; &lt;a href="http://Twitter.com/ProjectReactor"&gt;Project Reactor&lt;/a&gt; operators, and so much more.&lt;/p&gt;
+&lt;p&gt;Happy holidays from your friends on the Spring team to all of you!&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href="http://twitter.com/SimonBasle"&gt;Simon Baslé&lt;/a&gt; on Twitter&lt;/li&gt;
+  &lt;li&gt;&lt;a href="http://www.ProjectReactor.io"&gt;Project Reactor&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/731355979&amp;color=%23ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"&gt;&lt;/iframe&gt;
+&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
+  </entry>
   <entry>
     <title>Spring Tools 4.5.0 released</title>
     <link rel="alternate" href="https://spring.io/blog/2019/12/19/spring-tools-4-5-0-released" />
@@ -1051,139 +1069,6 @@ spring.cloud.stream.kafka.streams.bindings.process-out-0.producer.valueSerde=io.
   &lt;li&gt;Spring Data Elasticsearch 3.1.14 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-elasticsearch/3.1.14.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.14.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.14.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/elasticsearch/docs/3.1.14.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;Spring Data Couchbase 3.1.14 - &lt;a href="https://repo.spring.io/libs-release/org/springframework/data/spring-data-couchbase/3.1.14.RELEASE"&gt;Artifacts&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.14.RELEASE/api"&gt;Javadoc&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.14.RELEASE/reference/html"&gt;Documentation&lt;/a&gt; - &lt;a href="https://docs.spring.io/spring-data/couchbase/docs/3.1.14.RELEASE/changelog.txt"&gt;Changelog&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;!-- rendered by Sagan Renderer Service --&gt;</content>
-  </entry>
-  <entry>
-    <title>Stream Processing with Spring Cloud Stream and Apache Kafka Streams. Part 2 - Programming Model Continued</title>
-    <link rel="alternate" href="https://spring.io/blog/2019/12/03/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-2-programming-model-continued" />
-    <category term="engineering" label="Engineering" />
-    <author>
-      <name>Soby Chacko</name>
-    </author>
-    <id>tag:spring.io,2019-12-02:3892</id>
-    <updated>2019-12-03T16:09:00Z</updated>
-    <content type="html">&lt;p&gt;On the heels of the &lt;a href="https://spring.io/blog/2019/12/02/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-1-programming-model"&gt;previous blog&lt;/a&gt; in which we introduced the basic functional programming model for writing streaming applications with Spring Cloud Stream and Kafka Streams, in this part, we are going to further explore that programming model.&lt;/p&gt;
-&lt;p&gt;Let’s look at a few scenarios.&lt;/p&gt;&lt;h2&gt;&lt;a href="#scenario-1-single-input-and-output-binding" class="anchor" name="scenario-1-single-input-and-output-binding"&gt;&lt;/a&gt;Scenario 1: Single input and output binding&lt;/h2&gt;
-&lt;p&gt;If your application consumes data from a single input binding and produces data into an output binding, you can use Java’s Function interface to do that. Keep in mind that binding in this sense is not necessarily mapped to a single input Kafka topic, because topics could be multiplexed and attached to a single input binding (with comma-separated multiple topics configured on a single binding - see below for an example). On the outbound case, the binding maps to a single topic here. &lt;/p&gt;
-&lt;p&gt;Here is an example processor:&lt;/p&gt;
-&lt;p&gt;Note that the actual business logic implementation is given as a lambda expression in this processor.&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Bean&#xD;
-public Function&amp;lt;KStream&amp;lt;Object, String&amp;gt;, KStream&amp;lt;String, WordCount&amp;gt;&amp;gt; wordcount() {&#xD;
-&#xD;
-  return input -&amp;gt; input&#xD;
-        .flatMapValues(value -&amp;gt; Arrays.asList(value.toLowerCase().split(&amp;quot;\\W+&amp;quot;)))&#xD;
-        .map((key, value) -&amp;gt; new KeyValue&amp;lt;&amp;gt;(value, value))&#xD;
-        .groupByKey(Grouped.with(Serdes.String(), Serdes.String()))&#xD;
-        .windowedBy(TimeWindows.of(5000))&#xD;
-        .count(Materialized.as(&amp;quot;wordcount-store&amp;quot;))&#xD;
-        .toStream()&#xD;
-        .map((key, value) -&amp;gt; new KeyValue&amp;lt;&amp;gt;(key.key(), new WordCount(key.key(), value,&#xD;
-              new Date(key.window().start()), new Date(key.window().end()))));&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Look at the return signature of the processor. It is a &lt;code&gt;Function&amp;lt;KStream&amp;lt;Object, String&amp;gt;, KStream&amp;lt;String, WordCount&amp;gt;&amp;gt;&lt;/code&gt;. The processor consumes a &lt;code&gt;KStream&lt;/code&gt; and produces another &lt;code&gt;KStream&lt;/code&gt; Under the hood, the binder uses an incoming Kafka topic to consume data from and then provide that to this input &lt;code&gt;KStream&lt;/code&gt;. Similarly, on the outbound, the binder produces data as a &lt;code&gt;KStream&lt;/code&gt; which will be sent to an outgoing Kafka topic. &lt;/p&gt;
-&lt;p&gt;Here is how you may provide input topics to this processor:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;spring.cloud.stream.bindings.wordcount-in-0.destination=words&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;In the case of multiplexed topics, you can use this:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;spring.cloud.stream.bindings.wordcount-in-0.destination=words1,words2,word3&lt;/code&gt;&lt;/p&gt;
-&lt;p&gt;The output topic can be configured as below:&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;spring.cloud.stream.bindings.wordcount-out-0.destination=counts&lt;/code&gt;&lt;/p&gt;&lt;h2&gt;&lt;a href="#scenario-2-multiple-output-bindings-through-kafka-streams-branching" class="anchor" name="scenario-2-multiple-output-bindings-through-kafka-streams-branching"&gt;&lt;/a&gt;Scenario 2: Multiple output bindings through Kafka Streams branching&lt;/h2&gt;
-&lt;p&gt;Kafka Streams lets you send to multiple topics on the outbound by using a feature called branching. Essentially, it uses a predicate to match as a basis for branching into multiple topics. This is largely identical to the example above, but the main difference is that the outbound is provided as a KStream[]. &lt;/p&gt;
-&lt;p&gt;Here is an example processor:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;  @Bean&#xD;
-  public Function&amp;lt;KStream&amp;lt;Object, String&amp;gt;, KStream&amp;lt;?, WordCount&amp;gt;[]&amp;gt; wordcount() {&#xD;
-&#xD;
-     Predicate&amp;lt;Object, WordCount&amp;gt; isEnglish = (k, v) -&amp;gt; v.word.equals(&amp;quot;english&amp;quot;);&#xD;
-     Predicate&amp;lt;Object, WordCount&amp;gt; isFrench = (k, v) -&amp;gt; v.word.equals(&amp;quot;french&amp;quot;);&#xD;
-     Predicate&amp;lt;Object, WordCount&amp;gt; isSpanish = (k, v) -&amp;gt; v.word.equals(&amp;quot;spanish&amp;quot;);&#xD;
-&#xD;
-     return input -&amp;gt; input&#xD;
-           .flatMapValues(value -&amp;gt; Arrays.asList(value.toLowerCase().split(&amp;quot;\\W+&amp;quot;)))&#xD;
-           .groupBy((key, value) -&amp;gt; value)&#xD;
-           .windowedBy(TimeWindows.of(5000))&#xD;
-           .count(Materialized.as(&amp;quot;WordCounts-branch&amp;quot;))&#xD;
-           .toStream()&#xD;
-           .map((key, value) -&amp;gt; new KeyValue&amp;lt;&amp;gt;(null, new WordCount(key.key(), value,&#xD;
-                 new Date(key.window().start()), new Date(key.window().end()))))&#xD;
-           .branch(isEnglish, isFrench, isSpanish);&#xD;
-  }&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Pay attention to the second parametric type for the function. It is provided as a KStream[].&lt;/p&gt;
-&lt;p&gt;You can provide the individual output topics for these bindings:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;spring.cloud.stream.bindings.wordcount-out-0.destination=output1&#xD;
-spring.cloud.stream.bindings.wordcount-out-1.destination=output2&#xD;
-spring.cloud.stream.bindings.wordcount-out-2.destination=output3
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#scenario-3-two-input-bindings-and-a-single-output-binding" class="anchor" name="scenario-3-two-input-bindings-and-a-single-output-binding"&gt;&lt;/a&gt;Scenario 3: Two input bindings and a single output binding.&lt;/h2&gt;
-&lt;p&gt;When you have two input bindings and an output binding, you can represent your processor as a bean of type &lt;code&gt;java.util.function.BiFunction&lt;/code&gt;. Here is an example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Bean&#xD;
-public BiFunction&amp;lt;KStream&amp;lt;String, Long&amp;gt;, KTable&amp;lt;String, String&amp;gt;, KStream&amp;lt;String, Long&amp;gt;&amp;gt; process() {&#xD;
-  return (userClicksStream, userRegionsTable) -&amp;gt; (userClicksStream&#xD;
-        .leftJoin(userRegionsTable, (clicks, region) -&amp;gt; new RegionWithClicks(region == null ?&#xD;
-                    &amp;quot;UNKNOWN&amp;quot; : region, clicks),&#xD;
-              Joined.with(Serdes.String(), Serdes.Long(), null))&#xD;
-        .map((user, regionWithClicks) -&amp;gt; new KeyValue&amp;lt;&amp;gt;(regionWithClicks.getRegion(),&#xD;
-              regionWithClicks.getClicks()))&#xD;
-        .groupByKey(Grouped.with(Serdes.String(), Serdes.Long()))&#xD;
-        .reduce(Long::sum)&#xD;
-        .toStream());&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;The &lt;code&gt;BiFunction&lt;/code&gt; has two inputs and an output. The first input is a &lt;code&gt;KStream&lt;/code&gt;, and the second one is a &lt;code&gt;KTable&lt;/code&gt;, whereas the output is another &lt;code&gt;KStream&lt;/code&gt;. If you want to have a multiple &lt;code&gt;KStream&lt;/code&gt; on the outbound, you can change the type signature to &lt;code&gt;KStream[]&lt;/code&gt;and then make the necessary implementation changes.&lt;/p&gt;
-&lt;p&gt;Scenario 4: Two input bindings and no output bindings&lt;/p&gt;
-&lt;p&gt;If you only have two input bindings but no outputs, you can use Java’s &lt;code&gt;BiConsumer&lt;/code&gt; support. Possible use cases are where you don’t want to produce output, but update some state stores. Here is an example:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Bean&#xD;
-public BiConsumer&amp;lt;KStream&amp;lt;String, Long&amp;gt;, KTable&amp;lt;String, String&amp;gt;&amp;gt; process() {&#xD;
-  return (userClicksStream, userRegionsTable) -&amp;gt; {&#xD;
-     userClicksStream.foreach((key, value) -&amp;gt; latch.countDown());&#xD;
-     userRegionsTable.toStream().foreach((key, value) -&amp;gt; latch.countDown());&#xD;
-  };&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;&lt;h2&gt;&lt;a href="#scenario-5-more-than-two-input-bindings" class="anchor" name="scenario-5-more-than-two-input-bindings"&gt;&lt;/a&gt;Scenario 5: More than two input bindings.&lt;/h2&gt;
-&lt;p&gt;What if you have three or four or n number of input bindings? In that case, you cannot rely on a Function or BiFunction approach. You need to rely on partially applied functions. Basically, you start with a Function, but then, on the outbound of this first function, you provide another Function or Consumer until you exhaust your inputs. This technique of partially applying functions in this way is generally known as function currying in functional programming jargon. Here is an example that uses three inputs and a single output:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;@Bean&#xD;
-public Function&amp;lt;KStream&amp;lt;Long, Order&amp;gt;,&#xD;
-     Function&amp;lt;GlobalKTable&amp;lt;Long, Customer&amp;gt;,&#xD;
-           Function&amp;lt;GlobalKTable&amp;lt;Long, Product&amp;gt;, KStream&amp;lt;Long, EnrichedOrder&amp;gt;&amp;gt;&amp;gt;&amp;gt; process() {&#xD;
-&#xD;
-  return orderStream -&amp;gt; (&#xD;
-        customers -&amp;gt; (&#xD;
-              products -&amp;gt; (&#xD;
-                    orderStream.join(customers,&#xD;
-                          (orderId, order) -&amp;gt; order.getCustomerId(),&#xD;
-                          (order, customer) -&amp;gt; new CustomerOrder(customer, order))&#xD;
-                          .join(products,&#xD;
-                                (orderId, customerOrder) -&amp;gt; customerOrder&#xD;
-                                      .productId(),&#xD;
-                                (customerOrder, product) -&amp;gt; {&#xD;
-                                   EnrichedOrder enrichedOrder = new EnrichedOrder();&#xD;
-                                   enrichedOrder.setProduct(product);&#xD;
-                                   enrichedOrder.setCustomer(customerOrder.customer);&#xD;
-                                   enrichedOrder.setOrder(customerOrder.order);&#xD;
-                                   return enrichedOrder;&#xD;
-                                })&#xD;
-              )&#xD;
-        )&#xD;
-  );&#xD;
-}
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Carefully examine the processor’s type signature.:&lt;/p&gt;
-&lt;pre&gt;&lt;code class="prettyprint"&gt;Function&amp;lt;KStream&amp;lt;Long, Order&amp;gt;,&#xD;
-     Function&amp;lt;GlobalKTable&amp;lt;Long, Customer&amp;gt;,&#xD;
-           Function&amp;lt;GlobalKTable&amp;lt;Long, Product&amp;gt;, KStream&amp;lt;Long, EnrichedOrder&amp;gt;&amp;gt;&amp;gt;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;We start with a function that takes a &lt;code&gt;KStream&lt;/code&gt; as input, but the second argument (the output of this function) is another &lt;code&gt;Function&lt;/code&gt; that takes a &lt;code&gt;GlobalKTable&lt;/code&gt; as input. This second Function has another function as its output, which has an input of another &lt;code&gt;GlobalKTable&lt;/code&gt;. This third function is exhausting our inputs, and this function has a &lt;code&gt;KStream&lt;/code&gt; as its output, which will be used for the output binding. &lt;/p&gt;
-&lt;p&gt;Let’s look at this model from a mathematical perspective. &lt;/p&gt;
-&lt;p&gt;Let&amp;rsquo;s call these three functions as &lt;code&gt;f(x)&lt;/code&gt;, &lt;code&gt;f(y)&lt;/code&gt; and &lt;code&gt;f(z)&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;If we expand these functions, it will look like this: &lt;/p&gt;
-&lt;p&gt;&lt;code&gt;f(x) -&amp;gt; f(y) -&amp;gt; f(z) -&amp;gt;  KStream&amp;lt;Long, EnrichedOrder&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The &lt;strong&gt;x&lt;/strong&gt; variable stands for &lt;code&gt;KStream&amp;lt;Long, Order&amp;gt;&lt;/code&gt;, the &lt;strong&gt;y&lt;/strong&gt; variable stands for &lt;code&gt;GlobalKTable&amp;lt;Long, Customer&amp;gt;&lt;/code&gt; and the &lt;strong&gt;z&lt;/strong&gt; variable stands for &lt;code&gt;GlobalKTable&amp;lt;Long, Product&amp;gt;&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The first function &lt;code&gt;f(x)&lt;/code&gt; has the first input binding of the application (&lt;code&gt;KStream&amp;lt;Long, Order&amp;gt;&lt;/code&gt;) and its output is the function, &lt;code&gt;f(y)&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The function&lt;code&gt;f(y)&lt;/code&gt; has the second input binding for the application (&lt;code&gt;GlobalKTable&amp;lt;Long, Customer&amp;gt;&lt;/code&gt;), and its output is yet another function, &lt;code&gt;f(z)&lt;/code&gt;.&lt;/p&gt;
-&lt;p&gt;The input for the function &lt;code&gt;f(z)&lt;/code&gt; is the third input for the application (&lt;code&gt;GlobalKTable&amp;lt;Long, Product&amp;gt;&lt;/code&gt;) and its output is &lt;code&gt;KStream&amp;lt;Long, EnrichedOrder&amp;gt;&lt;/code&gt;, which is the final output binding for the application.&lt;/p&gt;
-&lt;p&gt;The inputs from the three partial functions (&lt;code&gt;KStream&lt;/code&gt;, &lt;code&gt;GlobalKTable&lt;/code&gt;, &lt;code&gt;GlobalKTable&lt;/code&gt;, respectively) are available in the method body for implementing the business logic as part of the lambda expression.&lt;/p&gt;
-&lt;p&gt;Bear in mind that, using function currying in Java as described above for more than a reasonable number of inputs (like three as in the above example) might cause code readability issues. Therefore, you have to carefully evaluate and decompose your application to see the appropriateness of having a larger number of input bindings in a single processor.&lt;/p&gt;&lt;h2&gt;&lt;a href="#summary" class="anchor" name="summary"&gt;&lt;/a&gt;Summary&lt;/h2&gt;
-&lt;p&gt;In this blog post, we took a whirlwind tour of the various functional programming models that you can use in a Spring Cloud Stream-based Kafka Streams applications. We saw the ways in which we can use &lt;code&gt;java.util.function.Function&lt;/code&gt; (or &lt;code&gt;Consumer&lt;/code&gt; as we saw in the &lt;a href="https://spring.io/blog/2019/12/02/stream-processing-with-spring-cloud-stream-and-apache-kafka-streams-part-1-programming-model"&gt;previous blog&lt;/a&gt;), &lt;code&gt;java.util.function.BiFunction&lt;/code&gt;, and &lt;code&gt;BiConsumer.&lt;/code&gt; We also saw how multiple bindings can be supported on the outbound by using Kafka Stream’s branching feature, which provides an array of &lt;code&gt;KStream&lt;/code&gt; as output. Finally, we saw the ways in which more than two input bindings can be supported through partially applied (curried) functions. In the next blog post, we will see how data deserialization and serialization are performed by the Kafka Streams binder. &lt;/p&gt;
 &lt;!-- rendered by Sagan Renderer Service --&gt;</content>
   </entry>
 </feed>

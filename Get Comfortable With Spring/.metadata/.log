@@ -3509,3 +3509,1112 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 	at java.lang.Class.getDeclaredMethod(Class.java:2130)
 	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
 	... 22 more
+
+!ENTRY org.eclipse.core.resources 4 1 2019-12-19 16:47:26.177
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: about
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.findLinkedResourcesPaths(FileSystemResourceManager.java:155)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocationNonCanonical(FileSystemResourceManager.java:132)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocation(FileSystemResourceManager.java:70)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allResourcesFor(FileSystemResourceManager.java:229)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:97)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:90)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.tryToOpenAsWorkspaceFile(MarkupEditor.java:273)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.changing(MarkupEditor.java:319)
+	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1504)
+	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:425)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.WebFrame.loadRequest(WebFrame.java:49)
+	at org.eclipse.swt.browser.WebKit.setText(WebKit.java:561)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1147)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1105)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:759)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:636)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createSourceViewer(MarkupEditor.java:429)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3338)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:452)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createPartControl(MarkupEditor.java:453)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:156)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:102)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:367)
+	at sun.reflect.GeneratedMethodAccessor243.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1001)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4976)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:652)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:616)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:791)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1240)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3317)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3216)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3213)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3177)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3167)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:570)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:525)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:363)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:170)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:382)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:554)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:277)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4150)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2019-12-19 16:47:26.178
+!MESSAGE No file system is defined for scheme: about
+
+!ENTRY org.eclipse.core.resources 4 1 2019-12-19 16:47:26.229
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: about
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.findLinkedResourcesPaths(FileSystemResourceManager.java:155)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocationNonCanonical(FileSystemResourceManager.java:132)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocation(FileSystemResourceManager.java:70)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allResourcesFor(FileSystemResourceManager.java:229)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:97)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:90)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.tryToOpenAsWorkspaceFile(MarkupEditor.java:273)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.changing(MarkupEditor.java:319)
+	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1504)
+	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:425)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.WebFrame.loadRequest(WebFrame.java:49)
+	at org.eclipse.swt.browser.WebKit.setText(WebKit.java:561)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1147)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1105)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:759)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:636)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updateDocument(MarkupEditor.java:616)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePartControl(MarkupEditor.java:516)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:66)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:452)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createPartControl(MarkupEditor.java:453)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:156)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:102)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:367)
+	at sun.reflect.GeneratedMethodAccessor243.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1001)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4976)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:652)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:616)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:791)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1240)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3317)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3216)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3213)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3177)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3167)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:570)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:525)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:363)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:170)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:382)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:554)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:277)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4150)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2019-12-19 16:47:26.230
+!MESSAGE No file system is defined for scheme: about
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:37:58.133
+!MESSAGE Boot LS startup time from start to initialized: 4170ms
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:38:00.289
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.564
+!MESSAGE Boot LS startup time from start to initialized: 1981ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.579
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FddeSSnFisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.580
+!MESSAGE subscribing to classpath changes: sts4.classpath.FddeSSnF isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.580
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.581
+!MESSAGE subsribers = {sts4.classpath.FddeSSnF=Send Classpath Notifications(7018)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.581
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.582
+!MESSAGE project Chapter10-AOP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.582
+!MESSAGE project Chapter01-JSON_POJO ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.582
+!MESSAGE Preparing classpath changed notification Chapter10-AOP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.583
+!MESSAGE project Chapter02-REST_Controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.583
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.583
+!MESSAGE project Chapter03-Spring_Bean ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.583
+!MESSAGE project Chapter04-InversionOfControl ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.584
+!MESSAGE project Chapter05-Annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.584
+!MESSAGE project Chapter06-Autowiring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.584
+!MESSAGE project Chapter07-BeanScopes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.584
+!MESSAGE project Chapter08-Configurations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.585
+!MESSAGE project Chapter09-PropertiesFile ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.585
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.585
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.FddeSSnF => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.595
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.596
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter10-AOP false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.597
+!MESSAGE Preparing classpath changed notification Chapter01-JSON_POJO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.597
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.598
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.599
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter01-JSON_POJO false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.599
+!MESSAGE Preparing classpath changed notification Chapter02-REST_Controller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.600
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.601
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.607
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter02-REST_Controller false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.607
+!MESSAGE Preparing classpath changed notification Chapter03-Spring_Bean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.608
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.609
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.611
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter03-Spring_Bean false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.613
+!MESSAGE Preparing classpath changed notification Chapter04-InversionOfControl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.613
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.615
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.616
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter04-InversionOfControl false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.616
+!MESSAGE Preparing classpath changed notification Chapter05-Annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.616
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.618
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.619
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter05-Annotations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.620
+!MESSAGE Preparing classpath changed notification Chapter06-Autowiring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.621
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.623
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.624
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter06-Autowiring false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.624
+!MESSAGE Preparing classpath changed notification Chapter07-BeanScopes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.626
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.629
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter07-BeanScopes false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.629
+!MESSAGE Preparing classpath changed notification Chapter08-Configurations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.630
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.631
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.632
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter08-Configurations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.632
+!MESSAGE Preparing classpath changed notification Chapter09-PropertiesFile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.633
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.635
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.636
+!MESSAGE buffering callback sts4.classpath.FddeSSnF Chapter09-PropertiesFile false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.636
+!MESSAGE executing callback sts4.classpath.FddeSSnF 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:02.749
+!MESSAGE executing callback sts4.classpath.FddeSSnF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:03.525
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FddeSSnF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:03.525
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.FddeSSnF
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:03.526
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:38:03.526
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.FddeSSnF => OK
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:38:08.955
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:46:55.824
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.207
+!MESSAGE Boot LS startup time from start to initialized: 3124ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.254
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zdcyxLprisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.254
+!MESSAGE subscribing to classpath changes: sts4.classpath.zdcyxLpr isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.254
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.255
+!MESSAGE subsribers = {sts4.classpath.zdcyxLpr=Send Classpath Notifications(7040)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.255
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.256
+!MESSAGE project Chapter10-AOP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.257
+!MESSAGE project Chapter01-JSON_POJO ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.257
+!MESSAGE Preparing classpath changed notification Chapter10-AOP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.257
+!MESSAGE project Chapter02-REST_Controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.257
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.258
+!MESSAGE project Chapter03-Spring_Bean ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.258
+!MESSAGE project Chapter04-InversionOfControl ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.258
+!MESSAGE project Chapter05-Annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.258
+!MESSAGE project Chapter06-Autowiring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.259
+!MESSAGE project Chapter07-BeanScopes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.259
+!MESSAGE project Chapter08-Configurations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.259
+!MESSAGE project Chapter09-PropertiesFile ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.259
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.259
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.260
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zdcyxLpr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.260
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter10-AOP false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.260
+!MESSAGE Preparing classpath changed notification Chapter01-JSON_POJO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.261
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.263
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.263
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter01-JSON_POJO false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.264
+!MESSAGE Preparing classpath changed notification Chapter02-REST_Controller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.264
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.265
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.266
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter02-REST_Controller false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.266
+!MESSAGE Preparing classpath changed notification Chapter03-Spring_Bean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.266
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.267
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.268
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter03-Spring_Bean false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.268
+!MESSAGE Preparing classpath changed notification Chapter04-InversionOfControl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.268
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.269
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.270
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter04-InversionOfControl false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.270
+!MESSAGE Preparing classpath changed notification Chapter05-Annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.270
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.272
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.273
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter05-Annotations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.273
+!MESSAGE Preparing classpath changed notification Chapter06-Autowiring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.273
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.275
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.275
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter06-Autowiring false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.275
+!MESSAGE Preparing classpath changed notification Chapter07-BeanScopes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.276
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.277
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.278
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter07-BeanScopes false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.278
+!MESSAGE Preparing classpath changed notification Chapter08-Configurations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.278
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.280
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.280
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter08-Configurations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.281
+!MESSAGE Preparing classpath changed notification Chapter09-PropertiesFile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.282
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.284
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.285
+!MESSAGE buffering callback sts4.classpath.zdcyxLpr Chapter09-PropertiesFile false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.285
+!MESSAGE executing callback sts4.classpath.zdcyxLpr 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:46:59.397
+!MESSAGE executing callback sts4.classpath.zdcyxLpr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:04.837
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zdcyxLpr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:04.837
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zdcyxLpr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:04.838
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:04.838
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zdcyxLpr => OK
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:47:10.294
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:47:48.850
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.460
+!MESSAGE Boot LS startup time from start to initialized: 3509ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.478
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AaEDMIjUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.479
+!MESSAGE subscribing to classpath changes: sts4.classpath.AaEDMIjU isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.479
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.479
+!MESSAGE subsribers = {sts4.classpath.AaEDMIjU=Send Classpath Notifications(7062)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.480
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.481
+!MESSAGE project Chapter10-AOP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.482
+!MESSAGE project Chapter01-JSON_POJO ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.482
+!MESSAGE Preparing classpath changed notification Chapter10-AOP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.482
+!MESSAGE project Chapter02-REST_Controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.482
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.482
+!MESSAGE project Chapter03-Spring_Bean ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.483
+!MESSAGE project Chapter04-InversionOfControl ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.483
+!MESSAGE project Chapter05-Annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.483
+!MESSAGE project Chapter06-Autowiring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.483
+!MESSAGE project Chapter07-BeanScopes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.484
+!MESSAGE project Chapter08-Configurations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.484
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.484
+!MESSAGE project Chapter09-PropertiesFile ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.484
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.485
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.AaEDMIjU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.485
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter10-AOP false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.485
+!MESSAGE Preparing classpath changed notification Chapter01-JSON_POJO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.485
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.487
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.488
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter01-JSON_POJO false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.488
+!MESSAGE Preparing classpath changed notification Chapter02-REST_Controller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.488
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.491
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.492
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter02-REST_Controller false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.492
+!MESSAGE Preparing classpath changed notification Chapter03-Spring_Bean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.496
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.499
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.500
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter03-Spring_Bean false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.500
+!MESSAGE Preparing classpath changed notification Chapter04-InversionOfControl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.501
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.503
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.504
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter04-InversionOfControl false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.505
+!MESSAGE Preparing classpath changed notification Chapter05-Annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.505
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.507
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.508
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter05-Annotations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.508
+!MESSAGE Preparing classpath changed notification Chapter06-Autowiring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.509
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.511
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.511
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter06-Autowiring false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.512
+!MESSAGE Preparing classpath changed notification Chapter07-BeanScopes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.512
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.513
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.514
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter07-BeanScopes false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.514
+!MESSAGE Preparing classpath changed notification Chapter08-Configurations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.515
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.518
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.519
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter08-Configurations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.519
+!MESSAGE Preparing classpath changed notification Chapter09-PropertiesFile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.519
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.521
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.522
+!MESSAGE buffering callback sts4.classpath.AaEDMIjU Chapter09-PropertiesFile false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.522
+!MESSAGE executing callback sts4.classpath.AaEDMIjU 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 13:47:52.603
+!MESSAGE executing callback sts4.classpath.AaEDMIjU SUCCESS [done]
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:53:42.766
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 13:57:04.395
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 14:59:12.140
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaEDMIjU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 14:59:12.143
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.AaEDMIjU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 14:59:12.144
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-20 14:59:12.144
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.AaEDMIjU => OK
+
+!ENTRY org.springframework.ide.eclipse.beans.core 1 0 2019-12-20 14:59:19.718
+!MESSAGE Error occured processing 'com.a3.learnings.Chapter03SpringBeanApplication'
+!STACK 0
+org.springframework.core.annotation.AnnotationConfigurationException: Attribute 'proxyBeanMethods' in annotation [org.springframework.boot.SpringBootConfiguration] is declared as an @AliasFor nonexistent attribute 'proxyBeanMethods' in annotation [org.springframework.context.annotation.Configuration].; nested exception is java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2128)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.from(AnnotationUtils.java:2095)
+	at org.springframework.core.annotation.AnnotationUtils.getAttributeAliasNames(AnnotationUtils.java:1751)
+	at org.springframework.core.annotation.AnnotationUtils.isSynthesizable(AnnotationUtils.java:1710)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotation(AnnotationUtils.java:1493)
+	at org.springframework.core.annotation.AnnotationUtils.synthesizeAnnotationArray(AnnotationUtils.java:1597)
+	at org.springframework.core.annotation.AnnotationUtils.getAnnotations(AnnotationUtils.java:231)
+	at org.springframework.core.type.classreading.AnnotationAttributesReadingVisitor.visitEnd(AnnotationAttributesReadingVisitor.java:76)
+	at org.springframework.asm.ClassReader.readAnnotationValues(ClassReader.java:2020)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:676)
+	at org.springframework.asm.ClassReader.accept(ClassReader.java:527)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtConnectedMetadataReader.<init>(JdtConnectedMetadataReader.java:45)
+	at org.springframework.ide.eclipse.core.java.classreading.JdtMetadataReaderFactory.getMetadataReader(JdtMetadataReaderFactory.java:53)
+	at org.springframework.ide.eclipse.core.java.classreading.CachingJdtMetadataReaderFactory.getMetadataReader(CachingJdtMetadataReaderFactory.java:38)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig.registerBean(BeansJavaConfig.java:368)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:229)
+	at org.springframework.ide.eclipse.beans.core.internal.model.BeansJavaConfig$2.call(BeansJavaConfig.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotation.Configuration.proxyBeanMethods()
+	at java.lang.Class.getDeclaredMethod(Class.java:2130)
+	at org.springframework.core.annotation.AnnotationUtils$AliasDescriptor.<init>(AnnotationUtils.java:2121)
+	... 22 more

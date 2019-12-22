@@ -1,6 +1,0 @@
-## Spring configuration with Java Annotations
-
-	Why?
-		1) Normal xml configurations can be verbose
-		2) Annotation minimize the xml configuration
-		3) Annotations are like meta-deta of a class
