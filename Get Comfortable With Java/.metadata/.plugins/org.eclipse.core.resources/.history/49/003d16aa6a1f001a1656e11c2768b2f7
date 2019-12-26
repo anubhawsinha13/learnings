@@ -1,9 +1,0 @@
-package com.a3.learnings.models;
-
-public class Motherboard {
-
-	public Motherboard() {
-		// TODO Auto-generated constructor stub
-	}
-
-}

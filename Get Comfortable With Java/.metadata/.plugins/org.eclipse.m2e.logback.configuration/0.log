@@ -261,3 +261,30 @@
 2019-12-15 21:53:17,984 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-12-15 21:53:17,984 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/Get Comfortable With Java/chapter110-Interfaces_Spring_Boot/src/test/resources
 2019-12-17 18:40:34,494 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-12-22 12:15:45,358 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-12-22 12:16:03,706 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:03,710 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter101 - Java Objects/src/main/resources
+2019-12-22 12:16:03,717 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:03,718 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter101 - Java Objects/src/test/resources
+2019-12-22 12:16:15,971 [Worker-14: Auto share git projects] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+2019-12-22 12:16:18,184 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:18,184 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter102 - Spring Beans/src/main/resources
+2019-12-22 12:16:18,188 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:18,188 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter102 - Spring Beans/src/test/resources
+2019-12-22 12:16:18,826 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:18,826 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter103 - Java Constructor/src/main/resources
+2019-12-22 12:16:18,828 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:18,828 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter103 - Java Constructor/src/test/resources
+2019-12-22 12:16:19,020 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:19,020 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter104 - Constructors/src/main/resources
+2019-12-22 12:16:19,024 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:19,024 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter104 - Constructors/src/test/resources
+2019-12-22 12:16:24,069 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:24,128 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2019-12-22 12:16:24,169 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2019-12-22 12:16:24,259 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-12-22 12:16:24,260 [Worker-4: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/chapter110-Interfaces_Spring_Boot/src/test/resources
+2019-12-23 00:55:28,727 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2019-12-23 00:55:31,542 [Worker-3: Decoration Calculation] WARN  org.eclipse.jgit.util.FS - Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'

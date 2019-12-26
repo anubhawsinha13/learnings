@@ -34,3 +34,11 @@ Instance variables :
 					Every instance has its own copy of instance variable.
 					Represents a state of a specific instance of the class.
 					
+					
+					
+# Static Class
+		1) Static keyword can be used for a class which is an inner class.
+		2) Static inner class is a nested class which is a static member of the outer class.
+		3) It can be accessed without instantiating the outer class
+		4) Just like static variables static nested class does not have access to static members and variables of outer class.
+					

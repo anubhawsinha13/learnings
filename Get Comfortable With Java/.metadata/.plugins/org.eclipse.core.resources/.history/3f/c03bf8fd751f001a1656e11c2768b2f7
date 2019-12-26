@@ -1,6 +1,0 @@
-## Composition
-
-	Inheritance : This is a relationship where the subclass shares a "IS-A" relationship with the super class.
-		Where as
-	Composition: Is a relationship which defines "HAS-A" relationship. E.g: Computer has a Motherboard.
-	
