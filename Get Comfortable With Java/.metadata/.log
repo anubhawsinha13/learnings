@@ -9349,3 +9349,15 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-28 23:41:06.446
 !MESSAGE executing callback sts4.classpath.ielWgIir SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-29 13:42:30.708
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ielWgIir
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-29 13:42:30.712
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.ielWgIir
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-29 13:42:30.712
+!MESSAGE subsribers = {sts4.classpath.LHONhlhq=Send Classpath Notifications(1548)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-29 13:42:30.712
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ielWgIir => OK

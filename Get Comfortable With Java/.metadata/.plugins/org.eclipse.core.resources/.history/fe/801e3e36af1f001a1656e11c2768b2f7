@@ -1,9 +1,0 @@
-package com.a3.learnings.models;
-
-public interface Animal {
-
-	
-	public void eat();
-	public void breathe();
-	
-}

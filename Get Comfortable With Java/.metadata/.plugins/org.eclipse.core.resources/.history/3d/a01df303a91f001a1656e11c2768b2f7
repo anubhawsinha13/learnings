@@ -1,5 +1,0 @@
-		
-				
-		mvnw : maven warpper file
-			maven wrapper file which will download the maven version if not available in your system.
-				If maven locally installed delete the mvnw file 
