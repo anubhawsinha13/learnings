@@ -1,7 +1,0 @@
-## Rest Controller
-
-	Steps:
-		1) Setup the application with pom.xml
-		2) Setup all Java config: @configuration
-					@configuration
-					@ComponenetScan (basePackages="com.a3.learnings")

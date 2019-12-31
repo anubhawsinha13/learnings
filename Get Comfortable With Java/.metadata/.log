@@ -9361,3 +9361,365 @@ java.lang.UnsupportedOperationException: No language server has registered to ha
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-29 13:42:30.712
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.ielWgIir => OK
+!SESSION 2019-12-30 19:43:26.533 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/asinha/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java -product org.eclipse.epp.package.java.product -keyring /Users/asinha/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2019-12-30 19:43:33.464
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-30 19:43:33.504
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-12-30 19:43:34.623
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-12-30 19:43:34.623
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@78c5ef58,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1fce6eb4,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2019-12-30 19:43:42.606
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:43:59.503
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:43:59.504
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@3e711e84[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=542)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:43:59.505
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:43:59.552
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.078
+!MESSAGE Boot LS startup time from start to initialized: 3560ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.098
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zQUDDOZrisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.098
+!MESSAGE subscribing to classpath changes: sts4.classpath.zQUDDOZr isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.101
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.104
+!MESSAGE subsribers = {sts4.classpath.zQUDDOZr=Send Classpath Notifications(846)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.104
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.107
+!MESSAGE project Chapter116-HierarchicalDataStructures ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.108
+!MESSAGE project Chapter107 - Polymorphism ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.109
+!MESSAGE Preparing classpath changed notification Chapter116-HierarchicalDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.109
+!MESSAGE project Chapter114-Generics ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.109
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.110
+!MESSAGE project Chapter115-LinearDataStructures - Stack-Queue ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.110
+!MESSAGE project Chapter117-NonLinearDataStructures ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.110
+!MESSAGE project Chapter118-Stream ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.111
+!MESSAGE project chapter101 - Java Objects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.111
+!MESSAGE project chapter102 - Spring Beans ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.112
+!MESSAGE project chapter103 - Java Constructor ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.112
+!MESSAGE project chapter104 - Constructors ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.112
+!MESSAGE project chapter105 - Inheritance ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.113
+!MESSAGE project chapter106 - Composition ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.114
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.114
+!MESSAGE project chapter108 - Static & Instance Methods ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.115
+!MESSAGE project chapter109 - Interfaces ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.115
+!MESSAGE project chapter110-Interfaces_Spring_Boot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.115
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter116-HierarchicalDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.116
+!MESSAGE Preparing classpath changed notification Chapter107 - Polymorphism
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.116
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.116
+!MESSAGE project chapter111 - Abstraction ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.117
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.118
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter107 - Polymorphism false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.118
+!MESSAGE Preparing classpath changed notification Chapter114-Generics
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.119
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.119
+!MESSAGE project chapter112 - Arrays ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.120
+!MESSAGE project chapter113 - Collections ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.120
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.120
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zQUDDOZr => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.121
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.122
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter114-Generics false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.122
+!MESSAGE Preparing classpath changed notification Chapter115-LinearDataStructures - Stack-Queue
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.123
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.124
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.124
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter115-LinearDataStructures - Stack-Queue false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.125
+!MESSAGE Preparing classpath changed notification Chapter117-NonLinearDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.125
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.126
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.127
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter117-NonLinearDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.127
+!MESSAGE Preparing classpath changed notification Chapter118-Stream
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.128
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.129
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.129
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr Chapter118-Stream false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.130
+!MESSAGE Preparing classpath changed notification chapter101 - Java Objects
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.130
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.132
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.132
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter101 - Java Objects false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.133
+!MESSAGE Preparing classpath changed notification chapter102 - Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.133
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.135
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.136
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter102 - Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.136
+!MESSAGE Preparing classpath changed notification chapter103 - Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.137
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.139
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.139
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter103 - Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.140
+!MESSAGE Preparing classpath changed notification chapter104 - Constructors
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.140
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.142
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.142
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter104 - Constructors false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.143
+!MESSAGE Preparing classpath changed notification chapter105 - Inheritance
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.143
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.145
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.145
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter105 - Inheritance false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.146
+!MESSAGE Preparing classpath changed notification chapter106 - Composition
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.146
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.147
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.148
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter106 - Composition false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.148
+!MESSAGE Preparing classpath changed notification chapter108 - Static & Instance Methods
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.149
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.150
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.154
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter108 - Static & Instance Methods false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.154
+!MESSAGE Preparing classpath changed notification chapter109 - Interfaces
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.155
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.156
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.157
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter109 - Interfaces false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.157
+!MESSAGE Preparing classpath changed notification chapter110-Interfaces_Spring_Boot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.157
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.160
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.162
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter110-Interfaces_Spring_Boot false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.162
+!MESSAGE Preparing classpath changed notification chapter111 - Abstraction
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.162
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.163
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.164
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter111 - Abstraction false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.164
+!MESSAGE Preparing classpath changed notification chapter112 - Arrays
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.165
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.166
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.167
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter112 - Arrays false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.167
+!MESSAGE Preparing classpath changed notification chapter113 - Collections
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.167
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.168
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.169
+!MESSAGE buffering callback sts4.classpath.zQUDDOZr chapter113 - Collections false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.170
+!MESSAGE executing callback sts4.classpath.zQUDDOZr 18 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:44:03.249
+!MESSAGE executing callback sts4.classpath.zQUDDOZr SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:58:02.320
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zQUDDOZr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:58:02.321
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.zQUDDOZr
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:58:02.321
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-12-30 19:58:02.322
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.zQUDDOZr => OK
