@@ -11017,3 +11017,1075 @@ Caused by: java.lang.NoSuchMethodException: org.springframework.context.annotati
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:46:17.192
 !MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.929
+!MESSAGE Preparing classpath changed notification Chapter107-Polymorphism
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.933
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.934
+!MESSAGE buffering callback sts4.classpath.vKEdciWS Chapter107-Polymorphism true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.935
+!MESSAGE Preparing classpath changed notification chapter107-Polymorphism
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.936
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.939
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.940
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter107-Polymorphism false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.941
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:35.946
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.212
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.212
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.214
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.214
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.215
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.215
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.216
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.217
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.217
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:36.229
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.133
+!MESSAGE Preparing classpath changed notification Chapter114-Generics
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.133
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.134
+!MESSAGE buffering callback sts4.classpath.vKEdciWS Chapter114-Generics true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.134
+!MESSAGE Preparing classpath changed notification chapter114-Generics
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.134
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.136
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.137
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter114-Generics false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.137
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.143
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.529
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.530
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.531
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.532
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.532
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.533
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.534
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.534
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.535
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:45.541
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.740
+!MESSAGE Preparing classpath changed notification Chapter115-LinearDataStructures - Stack-Queue
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.740
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.740
+!MESSAGE buffering callback sts4.classpath.vKEdciWS Chapter115-LinearDataStructures - Stack-Queue true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.741
+!MESSAGE Preparing classpath changed notification chapter115-LinearDataStructures - Stack-Queue
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.741
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.743
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.744
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter115-LinearDataStructures - Stack-Queue false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.744
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2020-01-02 12:49:52.746
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	... 21 more
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2020-01-02 12:49:52.747
+!MESSAGE Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2020-01-02 12:49:52.747
+!MESSAGE File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue.
+!STACK 0
+java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter115-LinearDataStructures - Stack-Queue (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:52.750
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.212
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.213
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.215
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.215
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.216
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.216
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.217
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.218
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.218
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:49:53.222
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.857
+!MESSAGE Preparing classpath changed notification Chapter116-HierarchicalDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.858
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.859
+!MESSAGE buffering callback sts4.classpath.vKEdciWS Chapter116-HierarchicalDataStructures true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.859
+!MESSAGE Preparing classpath changed notification chapter116-HierarchicalDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.860
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.863
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.864
+!MESSAGE buffering callback sts4.classpath.vKEdciWS chapter116-HierarchicalDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.864
+!MESSAGE executing callback sts4.classpath.vKEdciWS 2 batched events
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2020-01-02 12:50:03.876
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	... 21 more
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2020-01-02 12:50:03.886
+!MESSAGE Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2020-01-02 12:50:03.886
+!MESSAGE File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures.
+!STACK 0
+java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter116-HierarchicalDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:03.888
+!MESSAGE executing callback sts4.classpath.vKEdciWS SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:04.119
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vKEdciWS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:04.119
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.vKEdciWS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:04.120
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:04.120
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.vKEdciWS => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.605
+!MESSAGE Boot LS startup time from start to initialized: 2376ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.620
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OCiVMJPVisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.620
+!MESSAGE subscribing to classpath changes: sts4.classpath.OCiVMJPV isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.620
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.621
+!MESSAGE subsribers = {sts4.classpath.OCiVMJPV=Send Classpath Notifications(987)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.621
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.622
+!MESSAGE project chapter116-HierarchicalDataStructures ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.622
+!MESSAGE project Chapter117-NonLinearDataStructures ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.623
+!MESSAGE Preparing classpath changed notification chapter116-HierarchicalDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.623
+!MESSAGE project Chapter118-Stream ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.623
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.623
+!MESSAGE project chapter101-Java Objects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.623
+!MESSAGE project chapter102-Spring Beans ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.624
+!MESSAGE project chapter103-Java Constructor ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.624
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.624
+!MESSAGE project chapter104-Constructors ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.624
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter116-HierarchicalDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.625
+!MESSAGE Preparing classpath changed notification Chapter117-NonLinearDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.625
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.626
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.626
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV Chapter117-NonLinearDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.627
+!MESSAGE Preparing classpath changed notification Chapter118-Stream
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.627
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.628
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.628
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV Chapter118-Stream false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.629
+!MESSAGE Preparing classpath changed notification chapter101-Java Objects
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.629
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.630
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.630
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter101-Java Objects false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.631
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.631
+!MESSAGE project chapter105-Inheritance ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.631
+!MESSAGE project chapter106-Composition ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.632
+!MESSAGE project chapter107-Polymorphism ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.632
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.632
+!MESSAGE project chapter108-Static & Instance Methods ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.633
+!MESSAGE project chapter109-Interfaces ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.633
+!MESSAGE project chapter110-Interfaces_Spring_Boot ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.633
+!MESSAGE project chapter111-Abstraction ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.634
+!MESSAGE project chapter112-Arrays ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.634
+!MESSAGE project chapter113-Collections ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.634
+!MESSAGE project chapter114-Generics ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.635
+!MESSAGE project chapter115-LinearDataStructures - Stack-Queue ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.636
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.636
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.OCiVMJPV => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.636
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.637
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.637
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.637
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.638
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.639
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.639
+!MESSAGE Preparing classpath changed notification chapter104-Constructors
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.640
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.641
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.641
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter104-Constructors false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.641
+!MESSAGE Preparing classpath changed notification chapter105-Inheritance
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.642
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.642
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.643
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter105-Inheritance false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.643
+!MESSAGE Preparing classpath changed notification chapter106-Composition
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.643
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.644
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.644
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter106-Composition false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.645
+!MESSAGE Preparing classpath changed notification chapter107-Polymorphism
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.645
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.646
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.646
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter107-Polymorphism false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.647
+!MESSAGE Preparing classpath changed notification chapter108-Static & Instance Methods
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.647
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.648
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.648
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter108-Static & Instance Methods false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.648
+!MESSAGE Preparing classpath changed notification chapter109-Interfaces
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.648
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.649
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.650
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter109-Interfaces false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.650
+!MESSAGE Preparing classpath changed notification chapter110-Interfaces_Spring_Boot
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.650
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.652
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.653
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter110-Interfaces_Spring_Boot false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.653
+!MESSAGE Preparing classpath changed notification chapter111-Abstraction
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.654
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.654
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.655
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter111-Abstraction false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.655
+!MESSAGE Preparing classpath changed notification chapter112-Arrays
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.655
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.656
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.657
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter112-Arrays false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.657
+!MESSAGE Preparing classpath changed notification chapter113-Collections
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.657
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.661
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.661
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter113-Collections false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.661
+!MESSAGE Preparing classpath changed notification chapter114-Generics
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.662
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.663
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.664
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter114-Generics false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.664
+!MESSAGE Preparing classpath changed notification chapter115-LinearDataStructures - Stack-Queue
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.664
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.665
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.666
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter115-LinearDataStructures - Stack-Queue false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.666
+!MESSAGE executing callback sts4.classpath.OCiVMJPV 18 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:06.733
+!MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.914
+!MESSAGE Preparing classpath changed notification Chapter117-NonLinearDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.914
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.915
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV Chapter117-NonLinearDataStructures true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.915
+!MESSAGE Preparing classpath changed notification chapter117-NonLinearDataStructures
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.915
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.917
+!MESSAGE classpath=19 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.917
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter117-NonLinearDataStructures false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.918
+!MESSAGE executing callback sts4.classpath.OCiVMJPV 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:11.926
+!MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2020-01-02 12:50:11.951
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	... 21 more
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2020-01-02 12:50:11.952
+!MESSAGE Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2020-01-02 12:50:11.952
+!MESSAGE File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures.
+!STACK 0
+java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter117-NonLinearDataStructures (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.324
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.324
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.326
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.327
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.327
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.328
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.329
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.330
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.330
+!MESSAGE executing callback sts4.classpath.OCiVMJPV 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:12.339
+!MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.018
+!MESSAGE Preparing classpath changed notification Chapter118-Stream
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.018
+!MESSAGE exists = false open = true => deleted = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.019
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV Chapter118-Stream true 0
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.020
+!MESSAGE Preparing classpath changed notification chapter118-Stream
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.021
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.023
+!MESSAGE classpath=19 entries
+
+!ENTRY org.eclipse.ltk.core.refactoring 4 10000 2020-01-02 12:50:23.023
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:392)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	... 21 more
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 1 org.eclipse.core.filesystem 4 272 2020-01-02 12:50:23.024
+!MESSAGE Could not move: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream.
+!STACK 1
+org.eclipse.core.runtime.CoreException: File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream.
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:409)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+Caused by: java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	... 25 more
+!SUBENTRY 2 org.eclipse.core.filesystem 4 269 2020-01-02 12:50:23.024
+!MESSAGE File not found: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream.
+!STACK 0
+java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Java/.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/Chapter118-Stream (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.openInputStream(LocalFile.java:404)
+	at org.eclipse.core.filesystem.provider.FileStore.copyFile(FileStore.java:200)
+	at org.eclipse.core.filesystem.provider.FileStore.copy(FileStore.java:131)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.copy(LocalFile.java:127)
+	at org.eclipse.core.filesystem.provider.FileStore.move(FileStore.java:387)
+	at org.eclipse.core.internal.filesystem.local.LocalFile.move(LocalFile.java:395)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.moveHistory(RefactoringHistoryService.java:868)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.peformResourceChanged(RefactoringHistoryService.java:890)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService.access$1(RefactoringHistoryService.java:877)
+	at org.eclipse.ltk.internal.core.refactoring.history.RefactoringHistoryService$3.resourceChanged(RefactoringHistoryService.java:378)
+	at org.eclipse.core.internal.events.NotificationManager$1.run(NotificationManager.java:305)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.core.internal.events.NotificationManager.notify(NotificationManager.java:295)
+	at org.eclipse.core.internal.events.NotificationManager.broadcastChanges(NotificationManager.java:158)
+	at org.eclipse.core.internal.resources.Workspace.broadcastPostChange(Workspace.java:379)
+	at org.eclipse.core.internal.resources.Workspace.checkpoint(Workspace.java:565)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:265)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:308)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:99)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:219)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2295)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2322)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:89)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.025
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter118-Stream false 19
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.026
+!MESSAGE executing callback sts4.classpath.OCiVMJPV 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.033
+!MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.434
+!MESSAGE Preparing classpath changed notification chapter102-Spring Beans
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.435
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.438
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.438
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter102-Spring Beans false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.439
+!MESSAGE Preparing classpath changed notification chapter103-Java Constructor
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.439
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.440
+!MESSAGE classpath=86 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.441
+!MESSAGE buffering callback sts4.classpath.OCiVMJPV chapter103-Java Constructor false 23
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.441
+!MESSAGE executing callback sts4.classpath.OCiVMJPV 2 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.468
+!MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
