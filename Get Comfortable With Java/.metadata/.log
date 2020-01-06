@@ -12089,3 +12089,15 @@ java.io.FileNotFoundException: /Users/asinha/GIT/anubhawsinha13/Books/learnings/
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:50:23.468
 !MESSAGE executing callback sts4.classpath.OCiVMJPV SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:52:27.478
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OCiVMJPV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:52:27.478
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.OCiVMJPV
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:52:27.479
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 12:52:27.479
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.OCiVMJPV => OK

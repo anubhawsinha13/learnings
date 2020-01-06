@@ -7497,3 +7497,571 @@ org.eclipse.core.runtime.CoreException: No file system is defined for scheme: ab
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
 !SUBENTRY 1 org.eclipse.core.filesystem 4 566 2019-12-30 17:42:20.029
 !MESSAGE No file system is defined for scheme: about
+!SESSION 2020-01-02 15:13:11.423 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -keyring /Users/asinha/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product -data /Users/asinha/GIT/anubhawsinha13/Books/learnings/learnings/Get Comfortable With Spring -product org.eclipse.epp.package.java.product -keyring /Users/asinha/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2020-01-02 15:13:19.108
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.core 1 0 2020-01-02 15:13:19.163
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2020-01-02 15:13:20.490
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-01-02 15:13:20.490
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7d2a4598,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@65880400,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2020-01-02 15:13:30.046
+!MESSAGE Exception caught during execution of command '[git, --version]' in '/usr/bin', return code '1', error message 'xcrun: error: invalid active developer path (/Library/Developer/CommandLineTools), missing xcrun at: /Library/Developer/CommandLineTools/usr/bin/xcrun
+'
+
+!ENTRY org.eclipse.core.resources 4 1 2020-01-02 15:13:43.546
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: about
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.findLinkedResourcesPaths(FileSystemResourceManager.java:155)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocationNonCanonical(FileSystemResourceManager.java:132)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocation(FileSystemResourceManager.java:70)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allResourcesFor(FileSystemResourceManager.java:229)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:97)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:90)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.tryToOpenAsWorkspaceFile(MarkupEditor.java:273)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.changing(MarkupEditor.java:319)
+	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1504)
+	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:425)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.WebFrame.loadRequest(WebFrame.java:49)
+	at org.eclipse.swt.browser.WebKit.setText(WebKit.java:561)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1147)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1105)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:759)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:636)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createSourceViewer(MarkupEditor.java:429)
+	at org.eclipse.ui.texteditor.AbstractTextEditor.createPartControl(AbstractTextEditor.java:3338)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:64)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:452)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createPartControl(MarkupEditor.java:453)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:156)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:102)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1001)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4976)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:652)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:616)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:791)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1240)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3317)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3216)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3213)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3177)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3167)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:570)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:525)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:363)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:170)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:382)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:554)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:277)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4150)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-01-02 15:13:43.548
+!MESSAGE No file system is defined for scheme: about
+
+!ENTRY org.eclipse.core.resources 4 1 2020-01-02 15:13:43.790
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.runtime.CoreException: No file system is defined for scheme: about
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:48)
+	at org.eclipse.core.internal.filesystem.Policy.error(Policy.java:43)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getFileSystem(InternalFileSystemCore.java:68)
+	at org.eclipse.core.internal.filesystem.InternalFileSystemCore.getStore(InternalFileSystemCore.java:110)
+	at org.eclipse.core.filesystem.EFS.getStore(EFS.java:479)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.findLinkedResourcesPaths(FileSystemResourceManager.java:155)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocationNonCanonical(FileSystemResourceManager.java:132)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allPathsForLocation(FileSystemResourceManager.java:70)
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.allResourcesFor(FileSystemResourceManager.java:229)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:97)
+	at org.eclipse.core.internal.resources.WorkspaceRoot.findFilesForLocationURI(WorkspaceRoot.java:90)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.tryToOpenAsWorkspaceFile(MarkupEditor.java:273)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor$2.changing(MarkupEditor.java:319)
+	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1504)
+	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:425)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.WebFrame.loadRequest(WebFrame.java:49)
+	at org.eclipse.swt.browser.WebKit.setText(WebKit.java:561)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1147)
+	at org.eclipse.swt.browser.Browser.setText(Browser.java:1105)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:759)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePreview(MarkupEditor.java:636)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updateDocument(MarkupEditor.java:616)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.updatePartControl(MarkupEditor.java:516)
+	at org.eclipse.ui.texteditor.StatusTextEditor.createPartControl(StatusTextEditor.java:66)
+	at org.eclipse.ui.texteditor.AbstractDecoratedTextEditor.createPartControl(AbstractDecoratedTextEditor.java:452)
+	at org.eclipse.mylyn.internal.wikitext.ui.editor.MarkupEditor.createPartControl(MarkupEditor.java:453)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.createPartControl(CompatibilityPart.java:156)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityEditor.createPartControl(CompatibilityEditor.java:102)
+	at org.eclipse.ui.internal.e4.compatibility.CompatibilityPart.create(CompatibilityPart.java:367)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:58)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:1001)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:966)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalInject(InjectorImpl.java:139)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.internalMake(InjectorImpl.java:411)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.make(InjectorImpl.java:333)
+	at org.eclipse.e4.core.contexts.ContextInjectionFactory.make(ContextInjectionFactory.java:202)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.createFromBundle(ReflectionContributionFactory.java:91)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.doCreate(ReflectionContributionFactory.java:60)
+	at org.eclipse.e4.ui.internal.workbench.ReflectionContributionFactory.create(ReflectionContributionFactory.java:42)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributedPartRenderer.createWidget(ContributedPartRenderer.java:132)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createWidget(PartRenderingEngine.java:1015)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:675)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:781)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$0(PartRenderingEngine.java:752)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:746)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:730)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl$1.handleEvent(PartServiceImpl.java:107)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.lambda$0(UIEventHandler.java:38)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:236)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:147)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4976)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:219)
+	at org.eclipse.e4.ui.services.internal.events.UIEventHandler.handleEvent(UIEventHandler.java:38)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:205)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:203)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:233)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:151)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:132)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:75)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:44)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:55)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:63)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:424)
+	at org.eclipse.e4.ui.model.application.ui.impl.ElementContainerImpl.setSelectedElement(ElementContainerImpl.java:177)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.showElementInWindow(ModelServiceImpl.java:652)
+	at org.eclipse.e4.ui.internal.workbench.ModelServiceImpl.bringToTop(ModelServiceImpl.java:616)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.delegateBringToTop(PartServiceImpl.java:791)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.bringToTop(PartServiceImpl.java:404)
+	at org.eclipse.e4.ui.internal.workbench.PartServiceImpl.showPart(PartServiceImpl.java:1240)
+	at org.eclipse.ui.internal.WorkbenchPage.busyOpenEditor(WorkbenchPage.java:3317)
+	at org.eclipse.ui.internal.WorkbenchPage.lambda$9(WorkbenchPage.java:3216)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:72)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3213)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3177)
+	at org.eclipse.ui.internal.WorkbenchPage.openEditor(WorkbenchPage.java:3167)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:570)
+	at org.eclipse.ui.ide.IDE.openEditor(IDE.java:525)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:363)
+	at org.eclipse.jdt.internal.ui.javaeditor.EditorUtility.openInEditor(EditorUtility.java:170)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:287)
+	at org.eclipse.jdt.ui.actions.OpenAction.run(OpenAction.java:252)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.dispatchRun(SelectionDispatchAction.java:274)
+	at org.eclipse.jdt.ui.actions.SelectionDispatchAction.run(SelectionDispatchAction.java:252)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerActionGroup.handleOpen(PackageExplorerActionGroup.java:382)
+	at org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart$4.open(PackageExplorerPart.java:554)
+	at org.eclipse.ui.OpenAndLinkWithEditorHelper$InternalListener.open(OpenAndLinkWithEditorHelper.java:49)
+	at org.eclipse.jface.viewers.StructuredViewer$2.run(StructuredViewer.java:853)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.ui.internal.JFaceUtil.lambda$0(JFaceUtil.java:47)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:176)
+	at org.eclipse.jface.viewers.StructuredViewer.fireOpen(StructuredViewer.java:850)
+	at org.eclipse.jface.viewers.StructuredViewer.handleOpen(StructuredViewer.java:1165)
+	at org.eclipse.jface.util.OpenStrategy.fireOpenEvent(OpenStrategy.java:277)
+	at org.eclipse.jface.util.OpenStrategy.access$2(OpenStrategy.java:272)
+	at org.eclipse.jface.util.OpenStrategy$1.handleEvent(OpenStrategy.java:312)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4363)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1512)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1535)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1520)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1324)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4150)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3767)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SUBENTRY 1 org.eclipse.core.filesystem 4 566 2020-01-02 15:13:43.791
+!MESSAGE No file system is defined for scheme: about
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:55.082
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:55.083
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@5034e0c6[org.springframework.tooling.boot.ls:1.9.0.201907120625(id=542)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:55.085
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:55.182
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.160
+!MESSAGE Boot LS startup time from start to initialized: 4061ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.237
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LBcMAgRUisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.238
+!MESSAGE subscribing to classpath changes: sts4.classpath.LBcMAgRU isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.240
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.254
+!MESSAGE subsribers = {sts4.classpath.LBcMAgRU=Send Classpath Notifications(852)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.255
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.305
+!MESSAGE project Chapter04-InversionOfControl ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.306
+!MESSAGE project Chapter01-JSON_POJO ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.306
+!MESSAGE Preparing classpath changed notification Chapter04-InversionOfControl
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.307
+!MESSAGE project Chapter02-REST_Controller ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.307
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.307
+!MESSAGE project Chapter03-Spring_Bean ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.310
+!MESSAGE project Chapter05-Annotations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.310
+!MESSAGE project Chapter06-Autowiring ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.311
+!MESSAGE project Chapter07-BeanScopes ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.311
+!MESSAGE project Chapter08-Configurations ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.311
+!MESSAGE project Chapter09-PropertiesFile ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.312
+!MESSAGE project Chapter10-AOP ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.312
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.313
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.LBcMAgRU => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.313
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.315
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter04-InversionOfControl false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.315
+!MESSAGE Preparing classpath changed notification Chapter01-JSON_POJO
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.316
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.323
+!MESSAGE classpath=71 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.324
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter01-JSON_POJO false 71
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.325
+!MESSAGE Preparing classpath changed notification Chapter02-REST_Controller
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.325
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.332
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.333
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter02-REST_Controller false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.334
+!MESSAGE Preparing classpath changed notification Chapter03-Spring_Bean
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.334
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.336
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.337
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter03-Spring_Bean false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.339
+!MESSAGE Preparing classpath changed notification Chapter05-Annotations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.339
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.342
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.344
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter05-Annotations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.344
+!MESSAGE Preparing classpath changed notification Chapter06-Autowiring
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.344
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.347
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.348
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter06-Autowiring false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.349
+!MESSAGE Preparing classpath changed notification Chapter07-BeanScopes
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.349
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.352
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.353
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter07-BeanScopes false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.354
+!MESSAGE Preparing classpath changed notification Chapter08-Configurations
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.355
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.358
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.359
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter08-Configurations false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.360
+!MESSAGE Preparing classpath changed notification Chapter09-PropertiesFile
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.361
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.364
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.365
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter09-PropertiesFile false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.365
+!MESSAGE Preparing classpath changed notification Chapter10-AOP
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.366
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.397
+!MESSAGE classpath=68 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.399
+!MESSAGE buffering callback sts4.classpath.LBcMAgRU Chapter10-AOP false 68
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.399
+!MESSAGE executing callback sts4.classpath.LBcMAgRU 10 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-02 15:13:59.658
+!MESSAGE executing callback sts4.classpath.LBcMAgRU SUCCESS [done]
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-01-03 02:05:08.180
+!MESSAGE Connection to https://spring.io/blog.atom failed on spring.io: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: spring.io: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 2 0 2020-01-03 02:05:08.210
+!MESSAGE Connection to https://dist.springsource.com/release/STS/doc/updates.xml failed on dist.springsource.com: nodename nor servname provided, or not known. Retry attempt 0 started
+!STACK 0
+java.net.UnknownHostException: dist.springsource.com: nodename nor servname provided, or not known
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.resolveHostname(DefaultClientConnectionOperator.java:263)
+	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:162)
+	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
+	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:610)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:445)
+	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.performConnect(HttpClientRetrieveFileTransfer.java:1084)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer.access$0(HttpClientRetrieveFileTransfer.java:1075)
+	at org.eclipse.ecf.provider.filetransfer.httpclient4.HttpClientRetrieveFileTransfer$1.performFileTransfer(HttpClientRetrieveFileTransfer.java:1071)
+	at org.eclipse.ecf.filetransfer.FileTransferJob.run(FileTransferJob.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-03 02:16:52.159
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LBcMAgRU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-03 02:16:52.165
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.LBcMAgRU
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-03 02:16:52.165
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-03 02:16:52.165
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.LBcMAgRU => OK
